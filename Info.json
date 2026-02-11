@@ -1,0 +1,20 @@
+{
+  "name": "Last.fm Scrobbler",
+  "identifier": "com.tonnieboy.iina-lastfm-js",
+  "version": "0.0.0",
+  "description": "Scrobbles played music to Last.fm",
+  "author": {
+    "name": "Tonnieboy300",
+    "email": "contact@tonnieboy.com",
+    "url": "https://tonnieboy.com"
+  },
+  "entry": "src/index.js",
+  "permissions": [
+    "network-request"
+  ],
+  "allowedDomains": ["*"],
+  "preferencesPage": "pref.html",
+  "preferenceDefaults": {},
+  "ghRepo": "Tonnieboy300/iina-lastfm-js",
+  "ghVersion": 0
+}
