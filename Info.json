@@ -12,7 +12,7 @@
   "permissions": [
     "network-request"
   ],
-  "allowedDomains": ["*"],
+  "allowedDomains": ["ws.audioscrobbler.com"],
   "preferencesPage": "pref.html",
   "preferenceDefaults": {},
   "ghRepo": "Tonnieboy300/iina-lastfm-js",
