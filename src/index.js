@@ -62,7 +62,7 @@ async function scrobble(){
   console.log(url);
 
   const result = await http.post(url);
-  console.log(`Scrobble Status: ${result.statusCode}: ${sessionResponse.reason}`);
+  console.log(`Scrobble Status: ${result.statusCode}: ${result.reason}`);
   return JSON.parse(result.text);
 }
 
